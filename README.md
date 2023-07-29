@@ -6,9 +6,9 @@ It uses CryptoJS.SHA256 salt, https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4
 From the page: 
 
     Generates strong and unique passwords based on a Site Tag and Master Key (any word or phrase you like).
+    Forget about having to remember every password, you only need to remember the master key.
     Ensures strong passwords with a mix of characters, excluding lookalike characters.
     Provides unique passwords for each combination of Site Tag and master keyword.
-    Forget about having to remember every password, you only need to remember the master key.
     Enhances online security by reducing the risk of password reuse.
     Displays the generated password conveniently for easy viewing and copying.
     Supports cross-platform compatibility for accessibility on various devices.
