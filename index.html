@@ -143,7 +143,7 @@ button[type="submit"]:hover {
   });
 
   function generatePassword(tagWord, masterKeyword) {
-    const characterSet = 'abcdefghjkmnpqrstuvwxyzABCDEFGHJKLMNPQRSTUVWXYZ0123456789!@#$%.?,';
+    const characterSet = 'abcdefghijkmnopqrstuvwxyzABCDEFGHIJKLMNPQRSTUVWXYZ0123456789!@#$%.?,';
     const salt = tagWord + masterKeyword;
     const hash = CryptoJS.SHA256(salt).toString();
     const rng = new Math.seedrandom(hash);
